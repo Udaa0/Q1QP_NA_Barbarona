@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Italiana&family=Luckiest+Guy&family=Pangolin&family=Permanent+Marker&family=Roboto:wght@100&family=Shadows+Into+Light&family=Viga&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* SIDEBAR START */
+.sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 40px;
+    z-index: 1;
+    font-family: Acme;
+}
+
+.sidebar a {
+    padding: 1vw 3.5vw 1vw 2.5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    display: block;
+}
+/* SIDEBAR END */
+
+/* SIDEBAR HOVER START */
+ .links1 a {
+    text-decoration: none;
+    color: white;
+ }
+ .links1 a:hover {
+    color: #fdf4d2;
+    transition: 0.3s;
+ }
+ .links2 a {
+    text-decoration: none;
+    color: white;
+ }
+ .links2 a:hover {
+    text-decoration: none;
+    color: #fdf4d2;
+ }
+/* SIDEBAR HOVER END */
+
+   /* Container */
+
+ .container {
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    margin-left: 1.3vw;
+ }
+
+   /* End */
+
+/* SIDEBAR DROP DOWN START */
+ .links {
+    list-style: none;
+    padding: 0;
+ }
+ .links li {
+    position: relative;
+ }
+/* SIDEBAR DROP DOWN END */
+
+ /* BACKGROUND START */
+.Whole {
+    margin: 0%;
+    background-image: url(DKoS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+.Background {
+    background-image: url(Lament..jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+}
+.Quan {
+    background-image: url(Sunsquid.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200vh;
+}
+.Qual {
+    background-image: url(DKoS2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 240vh; 
+}
+.Con {
+    background-image: url(TheOneHeLovesMost.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh; 
+}
+.Ref {
+    background-image: url(Breeze.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh; 
+    margin-left: 10%;  
+}
+.Me {
+    background-image: url(Sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;   
+}
+/* BACKGROUND END */
+
+/* HOME PAGE START */
+.text {
+    text-transform: uppercase;
+    font-stretch:extra-condensed;
+    font-family: Italiana;
+    position: relative;
+    margin-top: 16%;
+    margin-left: 23.5%;
+}
+.text h2 {
+    color: white;
+    text-shadow: 4px 4px #fdf4d2;
+    font-size: 6vw;
+}
+
+.text h3 {
+    color:#fdf4d2;
+    font-size: 3vw;
+    text-shadow: 2px 2px #fdf4d2;
+}
+
+#bottom a {
+    top: 80%;
+}
+/* HOME PAGE END */
+
+/* BACKGROUND PAGE START */
+.text2 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 22.5%;
+}
+.text2 h2 {
+    color: black;
+    text-shadow: 4px 4px rgba(120, 13, 13, 0.76);
+    font-stretch:extra-condensed; 
+    font-size: 7vw
+}
+
+.paragraph {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    opacity: .7;
+    margin: 10px;
+    padding: 23px;
+    margin-left: 25%;
+    margin-right: 4%;
+    margin-top: 15%;
+}
+
+.paragraph p {
+    text-wrap: balance;
+    font-family: Pangolin;
+    font-size: 1.2vw;
+    color: black;
+} 
+.paragraph p span {
+    margin-left: 3vw;
+}
+/* BACKGROUND PAGE END */
+
+/* DATA PAGE START */
+.text3 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 22.5%;
+}
+.text3 h2 {
+    color: #577796;
+    text-shadow: 4px 4px #688cad;
+    font-stretch:extra-condensed; 
+    font-size: 7vw;
+}
+.firstdiv {
+    display: flex;
+    align-items: center;
+    margin-left: 20vw;   
+}
+.firstbox {
+    background-color: #6a8fb4;
+    position: relative;
+    border-radius: 20px;
+    height: auto;
+    width: 50vw;
+    margin: 10px;
+    padding: 20px;
+    margin-right: 2vw;
+    margin-top: 27%;
+}
+.firstbox img {
+    width: 100%;
+    object-fit: fill;
+}
+.paragraph2 {
+    background-color: #6a8fb4;
+    font-family: Pangolin;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 23px;
+    margin-left: 20vw;   
+    margin-right: 2vw; 
+    margin-top: 7vh;
+}
+.bottombox {
+    background-color: #6a8fb4;
+    position: relative;
+    border-radius: 20px;
+    height: auto;
+    width: 50vw;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 30vw;
+    margin-top: 5%;
+}
+.bottombox img{
+    width: 100%;
+    object-fit: fill;
+}
+/* DATA PAGE END */
+
+/* CONCLUSION PAGE START */
+.text4 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 22.5%;
+}
+.text4 h2 {
+    color: rgb(38, 38, 38);
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.589);
+    font-stretch:extra-condensed; 
+    font-size: 7vw
+}
+
+.paragraph3 {
+    background-color: white;
+    font-family: Pangolin;
+    opacity: .6;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 23px;
+    margin-left: 25%;
+    margin-right: 4%;
+    margin-top: 15%;
+}
+.paragraph3 p {
+    text-wrap: balance;
+    font-size: 1.2vw;
+    color: black;
+}
+.paragraph3 p span {
+    margin-left: 3vw;
+}
+/* CONCLUSION PAGE END */
+
+/* REFERENCE PAGE START */
+.text5 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.text5 h2 {
+    color:#022399;
+    text-shadow: 4px 4px #032bbc;
+    font-stretch:extra-condensed; 
+    font-size: 7vw
+}
+
+.Ref1 {
+    background-color: white;
+    opacity: .7;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 23px;
+    margin-left: 10%;
+    margin-right: 4%;
+    margin-top: 15%;
+}
+.Ref1 p {
+    font-family: Pangolin;
+    text-wrap: balance; 
+    font-size: 1.2vw;
+    color: black;
+}
+/* REFERENCE PAGE END */
+
+/* ABOUT ME PAGE START*/
+.text6 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 21%;
+}
+.text6 h2 {
+    color:#fe8230;
+    text-shadow: 4px 4px #fab384;
+    font-stretch:extra-condensed; 
+    font-size: 5vw;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;   
+    margin-top: 5%;
+}
+.Pic {
+    background-color: #fe9148;
+    width: 21vw;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}
+.Pic img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+}
+.Info2 {
+    background-color: #ffe9d9;
+    font-family: Pangolin;
+    position: relative;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 50px;
+    margin-right: 2vw;
+    margin-left: 5%;
+}
+.Info2 li {
+    text-transform: none;
+    text-wrap: balance;
+    font-size: 1.4vw;
+    color: black;
+}
+.Info2 ul li ul {
+    margin-left: 11%;
+}
+/* ABOUT ME PAGE END */
+
+/* FOOTER START*/
+.footer {
+    background-color: black;
+    font-family: Acme;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    padding: 10px;
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+}
+.right{
+    display: flex;
+    margin-left: 2vh;    
+}
+#logo img {
+    border-radius: 50%;
+    height: 39px;
+    width: 39px;
+}
+#copyright p {
+    margin-top: 0.7em;
+    text-align:center;
+    display: flex;
+}
+#logos {
+    display: flex;
+    gap: 10px;
+    margin-right: 10vh;
+}
+#logos img{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+#copyright {
+    display: flex;
+    gap: 30px;
+    margin-left: 10vh;
+}
+
+#copyright p{
+    color: white;
+}
+
+.socials a{
+    text-decoration: none;
+}
+/* FOOTER END */
